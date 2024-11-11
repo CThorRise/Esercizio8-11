@@ -168,26 +168,27 @@ namespace Esercizio8_11
         {
             Console.WriteLine("--- Inserisci i Punteggi per il Giocatore " + NGiocatore);
             Console.WriteLine("Quante partite ha giocato il Giocatore " + NGiocatore + "? (max: 10");
-            short NPartite=short.Parse(Console.ReadLine());
+            short NPartite = short.Parse(Console.ReadLine());
 
             if (NGiocatore == 1)
             {
-                int[]ArrayPunteggiG1;
+                int[] ArrayPunteggiG1;
                 for (int i = 1; i <= 10; i++) ;
                 {
-                    
+
                 }
 
             }
             else if (NGiocatore == 2)
-            { 
+            {
             }
             else if (NGiocatore == 3)
             {
             }
             else if (NGiocatore == 4)
-            { 
+            {
             }
+        }
     }
 
 
